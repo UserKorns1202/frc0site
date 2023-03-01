@@ -25,7 +25,7 @@ Programming languages are the languages used to write the source code of program
       
       <guid>https://frczero.org/programming/command_based_programming/</guid>
       <description>by Troy Korns - Febuary 25th, 2023
-What is Command Based Programming? Command Based Programming is a programming structure used by FRC to organize how the code is setup and run in a way similar to function calling.</description>
+What is Command Based Programming? Command Based Programming is a programming structure used by FRC to organize how the code is setup and run in a way similar to function calling. The main difference between the two is that a command is a completely seperate file that gets called in something called a scheduler. With this style though, you can easily run multiple commands, set commands to run as a default state, and even cancel commands.</description>
     </item>
     
     <item>

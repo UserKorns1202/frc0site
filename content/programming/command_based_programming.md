@@ -4,7 +4,7 @@ title: '6.8 Command Based Programming'
 weight: 6.8
 lastmod: '2023-2-25'
 author: 'UserKorns1202 (Troy Korns)'
-authorLink: 'https://github.com/devmanso'
+authorLink: 'https://github.com/UserKorns1202'
 editors: 'Mr. Siefen'
 ---
 by [Troy Korns](https://github.com/UserKorns1202) - Febuary 25th, 2023
