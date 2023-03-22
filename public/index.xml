@@ -19,6 +19,27 @@ Programming languages are the languages used to write the source code of program
     </item>
     
     <item>
+      <title>6.14 GUI Programming</title>
+      <link>https://frczero.org/programming/gui_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/gui_programming/</guid>
+      <description>by Troy Korns - Febuary 28th, 2023
+What is GUI Programming? The GUI (Graphical User Interface) for FRC is called Shuffleboard (or SmartDashboard). Shuffleboard is a dashboard that allows you to view and control data from your robot. It runs on your computer and communicates with your robot over the network, and is a great tool for debugging and testing your robot code.
+What is a widget? A widget is a component of the Shuffleboard that displays data from your robot.</description>
+    </item>
+    
+    <item>
+      <title>6.5 Python</title>
+      <link>https://frczero.org/programming/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://frczero.org/programming/python/</guid>
+      <description>by Troy Korns - Febuary 28th, 2023
+Basics of Python Python is a high-level, general-purpose programming language. It is a very popular language for beginners because it is easy to learn and read. It is also a very powerful language that can be used to create complex programs. Beginner teams can use it to start controlling simple parts of the robot in an easy to understand way. More advanced teams usually use java or C++.</description>
+    </item>
+    
+    <item>
       <title>6.8 Command Based Programming</title>
       <link>https://frczero.org/programming/command_based_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
