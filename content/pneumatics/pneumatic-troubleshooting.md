@@ -1,6 +1,7 @@
 ---
 title: "5.6 Pneumatic Troubleshooting"
 date: 2023-02-04T22:27:39-05:00
+edits: "[Troy Korns, 3/31/2023]"
 ---
 
 ![Sad robot falls down gif](https://i.gifer.com/Vp4d.gif)
@@ -100,4 +101,9 @@ NOTE: Some air loss is unavoidable. The compressor will run to keep the system f
     1. With the introduction of the new PCM firmware, the commands for setting up the solenoid objects are not the same as the old PCM firmware either. The new commands are `Solenoid exampleSolenoidPCM = new Solenoid(PneumaticsModuleType.CTREPCM, 1);` for a PCM, or `Solenoid exampleSolenoidPH = new Solenoid(PneumaticsModuleType.REVPH, 1);` for a PCH.
     2. With the introduction of the new PCM firmware, the commands for setting up the double solenoids are not the same as the old PCM firmware either. The new commands are `DoubleSolenoid exampleDoublePCM = new DoubleSolenoid(PneumaticsModuleType.CTREPCM, 1, 2);` for a PCM, or `DoubleSolenoid exampleDoublePH = new DoubleSolenoid(9, PneumaticsModuleType.REVPH, 4, 5);` for a PCH.
     3. Check the WPIlib documentation for more information [here](https://docs.wpilib.org/en/stable/docs/software/hardware-apis/pneumatics/pneumatics.html)
+
+8. **Things are blinking red and the compressor won't turn on**
+- More than likely this is a CAN issue if the PCM and other motors are blinking red instead of green/orange
+    1. Check the CAN chain along the robot to make sure everything is connected and connected tight enough using the pull test
+    2. Use motor controller software (Phoenix Tuner, Rev Hardware Client, etc) to check ID's of motors and firmware version
 

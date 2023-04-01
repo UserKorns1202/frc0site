@@ -97,6 +97,9 @@ The "public void execute()" method is where you you put the code for what the co
 
 In this, the execution calls another meathod from within the DriveTrain subsystem and passes arguments to it. These arguments would most likely be joystick inputs for driving, but the 0.5 is a placeholder for now. All of the other methods inside the brackets are neccessary for the command to run, but they are not used in this example and may not be edited by you in creating your code either.
 
+#### TIP
+You can run a command itself by using "command_name.execute()". This is useful for setting starting states for subsystems in Autonomus mode or just general configuration on enabling.
+
 ### Creating a Subsystem
 
 To create a subsystem, you need to create a new file in the subsystems folder. The file should be named after the subsystem. For example, if you were to create a subsystem that controls the drive train, you would name the file DriveTrain. The file should look like this:
